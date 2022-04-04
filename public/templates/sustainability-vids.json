@@ -45,7 +45,7 @@
           "description": "<div class='embed-container'><iframe src='/state/arkansas' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "states",
-          "label": "8",
+          "label": "4",
           "pin": "pin-square pin-lg pin-label"
         },
         {
@@ -53,88 +53,99 @@
           "title": "California",
           "description": "<div class='embed-container'><iframe src='/state/california' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "pin": "hidden",
-          "category": "states"
+          "category": "states",
+          "label": "2",
+          "pin": "pin-square pin-lg pin-label"
         },
         {
           "id": "fl",
           "title": "Florida",
           "description": "<div class='embed-container'><iframe src='/state/florida' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "pin": "hidden",
-          "category": "states"
+          "category": "states",
+          "label": "8",
+          "pin": "pin-square pin-lg pin-label"
         },
         {
           "id": "il",
           "title": "Illinois",
           "description": "<div class='embed-container'><iframe src='/state/illinois' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "pin": "hidden",
-          "category": "states"
+          "category": "states",
+          "label": "4",
+          "pin": "pin-square pin-lg pin-label"
         },
         {
           "id": "ky",
           "title": "Kentucky",
           "description": "<div class='embed-container'><iframe src='/state/kentucky' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "pin": "hidden",
-          "category": "states"
+          "category": "states",
+          "label": "1",
+          "pin": "pin-square pin-lg pin-label"
         },
         {
           "id": "la",
           "title": "Louisiana",
           "description": "<div class='embed-container'><iframe src='/state/louisiana' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "pin": "hidden",
-          "category": "states"
+          "category": "states",
+          "label": "1",
+          "pin": "pin-square pin-lg pin-label"
         },
         {
           "id": "md",
           "title": "Maryland",
           "description": "<div class='embed-container'><iframe src='/state/maryland' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "pin": "hidden",
-          "category": "states"
+          "category": "states",
+          "label": "1",
+          "pin": "pin-square pin-lg pin-label"
         },
         {
           "id": "ok",
           "title": "Oklahoma",
           "description": "<div class='embed-container'><iframe src='/state/oklahoma' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "pin": "hidden",
-          "category": "states"
+          "category": "states",
+          "label": "2",
+          "pin": "pin-square pin-lg pin-label"
         },
         {
           "id": "or",
           "title": "Oregon",
           "description": "<div class='embed-container'><iframe src='/state/oregon' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "pin": "hidden",
-          "category": "states"
+          "category": "states",
+          "label": "1",
+          "pin": "pin-square pin-lg pin-label"
         },
         {
           "id": "sc",
           "title": "South Carolina",
           "description": "<div class='embed-container'><iframe src='/state/south-carolina' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "pin": "hidden",
-          "category": "states"
+          "category": "states",
+          "label": "2",
+          "pin": "pin-square pin-lg pin-label"
         },
         {
           "id": "tx",
           "title": "Texas",
           "description": "<div class='embed-container'><iframe src='/state/texas' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "pin": "hidden",
-          "category": "states"
+          "category": "states",
+          "label": "1",
+          "pin": "pin-square pin-lg pin-label"
         },        
         {
           "id": "vi",
           "title": "Virginia",
           "description": "<div class='embed-container'><iframe src='/state/virginia' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "pin": "hidden",
-          "category": "states"
+          "category": "states",
+          "label": "2",
+          "pin": "pin-square pin-lg pin-label"
         }
       ]
     }
