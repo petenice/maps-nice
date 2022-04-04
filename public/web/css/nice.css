@@ -130,7 +130,6 @@ input.styled {
 /* XXL */ /* XL */ /* LG */ /* MD */ /* SM */ /* XS */
 
 .f-btn {
-   font-family: "CalibreMedium", "Calibri", "Candara" , "Segoe" , "Segoe UI" ,"Optima", "Arial", "sans-serif";
    font-weight: 500;
    --tw-text-opacity: 1;
    color: rgba(255, 255, 255, var(--tw-text-opacity));
