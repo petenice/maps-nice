@@ -1,0 +1,29 @@
+{#--
+STATE
+/templates/state.twig
+niceworld 4.1.22
+--#}
+
+{% extends "_layouts/site" %}
+
+{% set title = "" %}
+{% set description = "" %}
+{% set og_img = siteUrl ~"assets/imgz/" %}
+
+{% block head %}
+  {{ parent() }}
+{% endblock %}
+
+{% block main %}
+
+{# <h1 class="font-bold text-2xl">{{entry.title}}</h1> #}
+<p>{{entry.body}}</p>
+{{entry.code|raw}}
+
+
+
+{% endblock %}{#-- /main --#}
+
+{% block foot %}
+{{ parent() }}
+{% endblock %} {#-- /foot --#}

@@ -1,0 +1,173 @@
+{#--
+MATERIALS BOARD
+/components/_materials-board.twig
+niceworld 03.08.22
+--#}
+
+
+{# {% set range = range(1,5) %} #}
+
+{% set search = search ?? '' %}
+{% set limit = limit ?? 30 %}
+{% set materialType = materialType ?? '' %}
+{% set gradeLevels = gradeLevels ?? '' %}
+
+{% set orderBy = orderBy ?? 'title' %}
+{% set sortBy = sortBy ?? 'asc' %}
+
+{% set page = page ?? 1 %}
+
+{% set filters = {
+  search: search,
+  limit: limit,
+  materialType: materialType,
+  gradeLevels: gradeLevels,
+  }
+%}
+
+{% set entryQuery = craft.entries(filters|merge({  
+  orderBy: orderBy ~ ' ' ~ sortBy,
+  section: 'materials',
+  })) %}
+
+{% set pageInfo = sprig.paginate(entryQuery, page) %}
+
+{% set entries = pageInfo.pageResults %}
+
+{% do sprig.pushUrl('?' ~ filters|merge({
+    page: page,
+  })|url_encode)
+%}
+
+
+
+<div s-replace="#materials-board"><!-- not replace div -->    
+
+<div id="materials-sidebar">
+  <div class="sidebar-nav">
+      <input sprig s-trigger="keyup changed delay:300ms" id="search" name="search" value="{{search}}" type="text" 
+      placeholder="Search by Keyword" class="nice-search">
+    <div x-data="{ but: 'all' }">
+      <button sprig s-val:materialType=""><a href="/materials" class="nav all" :class="{ 'active': but === 'all' }" @click.prevent="but = 'all'">All Materials</a></button><br>
+      <button sprig s-val:materialType="fullUnit" class="nav fu" :class="{ 'active': but === 'fu' }" @click.prevent="but = 'fu'">Full Unit</button>
+      <button sprig s-val:materialType="toolKit" class="nav tk" :class="{ 'active': but === 'tk' }" @click.prevent="but = 'tk'">ToolKit</button>
+      <button sprig s-val:materialType="taskLibrary" class="nav tl" :class="{ 'active': but === 'tl' }" @click.prevent="but = 'tl'">Task Library</button> 
+      <button sprig s-val:materialType="otherResource" class="nav other" :class="{ 'active': but === 'or' }" @click.prevent="but = 'or'">Other Resource</button>
+    </div>
+  </div><!-- /sidebar-nav -->
+
+  <div class="sidebar-gl">
+    <p>Grade Levels</p>
+
+    <div x-data="{ but: '' }">
+      <button sprig s-val:gradeLevels="K" class="gl">K</button>
+      <button sprig s-val:gradeLevels="1" class="gl">1</button>
+      <button sprig s-val:gradeLevels="2" class="gl">2</button>
+      <button sprig s-val:gradeLevels="3" class="gl">3</button>
+      <button sprig s-val:gradeLevels="4" class="gl">4</button>
+      <button sprig s-val:gradeLevels="5" class="gl">5</button>
+      <button sprig s-val:gradeLevels="6" class="gl">6</button>
+      <button sprig s-val:gradeLevels="7" class="gl">7</button>
+      <button sprig s-val:gradeLevels="8" class="gl">8</button>
+      <button sprig s-val:gradeLevels="9" class="gl">9</button>
+      <button sprig s-val:gradeLevels="10" class="gl">10</button>
+      <button sprig s-val:gradeLevels="11" class="gl">11</button>
+      <button sprig s-val:gradeLevels="12" class="gl">12</button>
+    </div><!-- /x-data -->
+  </div>
+  {# <div class="sidebar-tags">
+    <p>Tags</p>
+    <a href="#" class="tag"><img src="{{siteUrl}}assets/imgz/icon-tag.svg">tag here,</a>
+    <a href="#" class="tag"><img src="{{siteUrl}}assets/imgz/icon-tag.svg">tag here,</a>
+    <a href="#" class="tag"><img src="{{siteUrl}}assets/imgz/icon-tag.svg">tag here,</a>
+    <a href="#" class="tag"><img src="{{siteUrl}}assets/imgz/icon-tag.svg">tag here,</a>
+  </div> #}
+</div><!-- /materials-sidebar -->
+
+</div><!-- /not replace div -->
+
+
+ {#-- MATERIALS BOARD --#}
+  <div id="materials-board">
+
+{# foo:{{ materialType }} #}
+
+{% for entry in entries %}
+
+<div class="materials-box">
+<div class="box-notched sage"></div>
+<div class="box-sub sage p-4 pt-0">
+  <div class="flex flex-row">
+    <div class="w-1/3 pr-4 pt-2 pb-4">
+
+      {% set thumbImg = entry.materialThumb.one() %}
+      {% if thumbImg|length %}
+        <img src="{{ thumbImg.url('thumbnail240w') }}" class="w-full self-center">
+       {% else %}
+        <img src="{{siteUrl}}assets/imgz/img-placeholder-hex-pink.png" class="w-full self-center">
+       {% endif %}
+
+    </div>
+    <div class="w-2/3">
+      {% if entry.materialType.value=="fullUnit" %}
+        {% set productColor, buttonColor = "text-orange-dark", "orange" %}
+      {% elseif entry.materialType.value=="taskLibrary" %}
+        {% set productColor, buttonColor = "text-yellow", "yellow" %}
+      {% elseif entry.materialType.value=="toolKit" %}
+        {% set productColor, buttonColor = "text-green-dark", "green" %}
+      {% elseif entry.materialType.value=="otherResource" %}
+        {% set productColor, buttonColor = "text-orange-dark", "orange" %}
+      {% else %}
+        {% set productColor, buttonColor = "text-orange-dark", "orange" %}
+      {% endif %}
+      <div class="text-lg font-bold {{productColor}}">{{entry.materialType.label}}</div> 
+      <h2 class="text-xl font-nan-bold text-charcoal leading-7 mb-4">{{entry.title}}</h2>
+    </div>
+  </div><!-- /flex-row -->
+  <div class="w-full">
+  <p class="text-sm leading-5 text-charcoal mb-4">{{entry.excerpt}}</p>
+
+  {% set buttonz = entry.buttons.all() %}
+    {% if buttonz|length %}
+    {% for button in buttonz %}
+      <a href="{{button.dest}}" class="f-btn btn-{{buttonColor}} inline-block" {% if button.openInNewTab=="yes" %}target="_new"{% endif %}>{{button.copy}}&nbsp;&nbsp;
+      {% if button.hexOrGoogle=="google" %}
+      <img src="/assets/imgz/icon-google-doc.svg" class="inline-block ml-2 h-20px">
+      {% else %}
+      <img src="/assets/imgz/icon-hex-white.svg" class="inline-block ml-2">
+      {% endif %}
+      </a>    
+    {% endfor %}
+    {% endif %}
+
+  {{entry.code|raw}}
+  
+
+  {# <p class="text-md leading-snug text-charcoal">{{entry.viewCount}}</p> #}
+  {# <a href="#" class="text-green-dark hover:text-orange-dark">tagiz,</a>
+  <a href="#" class="text-green-dark hover:text-orange-dark">tagiz,</a>
+  <a href="#" class="text-green-dark hover:text-orange-dark">tagiz,</a> #}
+    {# 
+      <a href="" class="f-btn btn-orange inline-block">View&nbsp;&nbsp;<img src="{{siteUrl}}/assets/imgz/icon-hex-white.svg" class="inline-block ml-2"></a>
+      <a href="" class="f-btn btn-orange inline-block">Google Doc&nbsp;&nbsp;<img src="{{siteUrl}}/assets/imgz/icon-google-doc.svg" class="inline-block ml-2 h-20px w-20px"></a> 
+    #}
+  </div>
+</div><!-- /box-sub -->
+</div><!-- /materials-box -->
+
+
+  {% endfor %}
+
+
+  {% if entries|length == 0 %}
+      <div class="">
+        <div class="">No entries found</div>
+      </div>
+  {% endif %} 
+
+
+    {# {% include "_partials/_materials-box.twig" %} #}
+
+  </div>
+  {#-- / MATERIALS BOARD --#}
+

@@ -1,0 +1,131 @@
+$2xl: only screen and (min-width:2000px) and (max-width: 5000px); /* XXL */
+$xl: only screen and (min-width:1200px) and (max-width: 2000px); /* XL */
+$lg: only screen and (min-width: 992px) and (max-width: 1200px); /* LG */
+$md: only screen and (min-width: 768px) and (max-width: 992px); /* MD */
+$sm: only screen and (min-width: 576px) and (max-width: 768px); /* SM */
+$xs: only screen and (max-width: 576px); /* XS */
+$2xs: only screen and (max-width: 320px);
+
+/* npx stylelint public/web/src/nice.css */
+@import "helpers.css";
+@import "fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "buttons-icons.css";
+
+b, strong {@apply font-bold;}
+
+[x-cloak] { display: none; }
+
+body {}
+#footer {background: linear-gradient(0deg, rgba(88,126,29,1) 0%, rgba(107,151,38,1) 100%);}
+#topnav {}
+
+.map-width-wrapper { 
+  max-width: 1280px; 
+  margin: 0 auto; 
+  padding: 0 2%;
+  /* @media $xl, $2xl {width: 80%;}
+  @media $md, $lg {width: 90%;}
+  @media $2xs, $xs, $sm  {width: 98%;} */
+  &.medium {
+    @media $xl, $2xl {width: 60%;}
+    @media $lg {width: 60%;}
+    @media $md {width: 50%;}
+    @media $sm  {width: 60%;}
+    @media $xs  {width: 85%;}
+    @media $2xs  {width: 75%;}
+  }
+}
+
+.top-nav-item {
+  @apply no-underline block text-sm xl:text-lg lg:text-sm leading-none font-reg text-white
+ hover:text-green-dark bg-green-light hover:bg-white  mr-4 filter drop-shadow-nav
+   hover:drop-shadow-none border-2 border-green-light hover:border-green-light hidden lg:inline;
+   @media $xl, $2xl {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   }
+   @media $lg {
+    padding-top: 0.35rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+   }
+
+}
+
+.overlay-nav-item {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  @apply no-underline block text-2xl font-reg mb-4 ml-4 text-white hover:text-green-dark bg-green-light hover:bg-white mr-4 filter drop-shadow-nav hover:drop-shadow-none border-2 border-green-light hover:border-green-light;
+}
+
+.logo-facse-sitewide {
+  width: 260px;
+  margin: auto;
+  margin-left: 10px;
+  @media $2xs, $xs { width: 200px; margin-top: 24px; }
+  @media $sm, $md, $lg, $xl, $2xl { width: 260px; margin-top: 16px; }
+}
+
+.overlay {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(35 32 32 / 90%);
+  overflow: auto;
+  z-index: 1040;
+}
+
+.nav-item { position: relative; display: inline-block; cursor: pointer; }
+
+#footer-top a {padding:12px 3px 0 6px;
+  @media $xs, $sm {padding:1px 0 2px 0;} 
+}
+
+.mfp-content {
+  height: 90%;
+}
+
+.mapplic-lightbox {
+    background-color: #fff;
+    position: relative;
+    padding: 20px;
+    width: auto;
+    max-width: 100%!important;
+    height: 90%;
+    margin: 20px auto;
+}
+
+.mapplic-lightbox-description {
+  /* border: solid red 1px; */
+  height: 90%;
+}
+
+.embed-container {
+  /* border: solid green 1px; */
+  height: 100%;
+}
+
+.embed-container-vid { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  max-width: 90%; 
+  margin: 0 auto; 
+} 
+
+.embed-container-vid iframe, .embed-container-vid object, .embed-container-vid embed { 
+  position: absolute; 
+  top: 0; left: 0; 
+  width: 100%; 
+  height: 100%; 
+}

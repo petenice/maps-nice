@@ -1,0 +1,250 @@
+{
+	"mapwidth":"600",
+	"mapheight":"540",
+	"categories":[],
+	"levels":[
+		{
+			"id":"australia",
+			"title":"Australia",
+			"map":"maps/australia.svg",
+			"locations":[
+				{
+					"id": "nsw",
+					"title": "New South Wales",
+					"description": "<p>New South Wales</p>",
+					"pin": "hidden",
+					"style": "defaultstyle",
+					"x": "0.7958",
+					"y": "0.6467"
+				},
+				{
+					"id": "nt",
+					"title": "Northern Territory",
+					"description": "<p>Northern Territory</p>",
+					"pin": "hidden",
+					"style": "defaultstyle",
+					"x": "0.4877",
+					"y": "0.2952"
+				},
+				{
+					"id": "melbourne",
+					"title": "Melbourne",
+					"description": "Melbourne.",
+					"pin": "circular pin-md pin-label",
+					"label": "M",
+					"x": "0.7645",
+					"y": "0.7738"
+				},
+				{
+					"id": "perth",
+					"title": "Perth",
+					"description": "Perth description.",
+					"pin": "circular pin-md pin-label",
+					"label": "P",
+					"x": "0.1140",
+					"y": "0.6024"
+				},
+				{
+					"id": "small-circular",
+					"title": "Small Circular",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-sm",
+					"label": "P",
+					"fill": "#DD3333",
+					"x": "0.15",
+					"y": "0.35"
+				},
+				{
+					"id": "medium-circular",
+					"title": "Medium Circular",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-label",
+					"label": "M",
+					"fill": "#DD3333",
+					"x": "0.20",
+					"y": "0.35"
+				},
+				{
+					"id": "large-circular",
+					"title": "Large Circular",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-lg pin-label",
+					"label": "L",
+					"fill": "#DD3333",
+					"x": "0.25",
+					"y": "0.35"
+				},
+				{
+					"id": "bordered-circular",
+					"title": "Bordered Circular",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-bordered pin-label",
+					"label": "B",
+					"fill": "#DD3333",
+					"x": "0.30",
+					"y": "0.35"
+				},
+				{
+					"id": "pin-circular",
+					"title": "Pin Circular",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-triangle pin-label",
+					"label": "P",
+					"fill": "#DD3333",
+					"x": "0.35",
+					"y": "0.35"
+				},
+				{
+					"id": "small-rounded",
+					"title": "Small Rounded",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-rounded pin-sm",
+					"label": "P",
+					"fill": "#6b9b26",
+					"x": "0.15",
+					"y": "0.4"
+				},
+				{
+					"id": "medium-rounded",
+					"title": "Medium Rounded",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-rounded pin-label",
+					"label": "M",
+					"fill": "#6b9b26",
+					"x": "0.20",
+					"y": "0.4"
+				},
+				{
+					"id": "large-rounded",
+					"title": "Large Rounded",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-rounded pin-lg pin-label",
+					"label": "L",
+					"fill": "#6b9b26",
+					"x": "0.25",
+					"y": "0.4"
+				},
+				{
+					"id": "bordered-rounded",
+					"title": "Bordered Rounded",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-rounded pin-bordered pin-label",
+					"label": "B",
+					"fill": "#6b9b26",
+					"x": "0.30",
+					"y": "0.4"
+				},
+				{
+					"id": "pin-rounded",
+					"title": "Pin Rounded",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-rounded pin-triangle pin-label",
+					"label": "P",
+					"fill": "#6b9b26",
+					"x": "0.35",
+					"y": "0.4"
+				},
+				{
+					"id": "small-square",
+					"title": "Small Square",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-square pin-sm",
+					"label": "P",
+					"fill": "#0071A1",
+					"x": "0.15",
+					"y": "0.45"
+				},
+				{
+					"id": "medium-square",
+					"title": "Medium Square",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-square pin-label",
+					"label": "M",
+					"fill": "#0071A1",
+					"x": "0.20",
+					"y": "0.45"
+				},
+				{
+					"id": "large-square",
+					"title": "Large Square",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-square pin-lg pin-label",
+					"label": "L",
+					"fill": "#0071A1",
+					"x": "0.25",
+					"y": "0.45"
+				},
+				{
+					"id": "bordered-square",
+					"title": "Bordered Square",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-square pin-bordered pin-label",
+					"label": "B",
+					"fill": "#0071A1",
+					"x": "0.30",
+					"y": "0.45"
+				},
+				{
+					"id": "pin-square",
+					"title": "Pin Square",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-square pin-triangle pin-label",
+					"label": "P",
+					"fill": "#0071A1",
+					"x": "0.35",
+					"y": "0.45"
+				},
+				{
+					"id": "pulse",
+					"title": "Pulse",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-pulse pin-label",
+					"label": "P",
+					"fill": "#007CBA",
+					"x": "0.15",
+					"y": "0.5"
+				},
+				{
+					"id": "circles",
+					"title": "Circles",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-marker pin-label",
+					"label": "C",
+					"fill": "#fcac2b",
+					"x": "0.2",
+					"y": "0.5"
+				},
+				{
+					"id": "ribbon",
+					"title": "Ribbon",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-ribbon pin-label",
+					"label": "Text",
+					"fill": "#6b9b26",
+					"x": "0.3",
+					"y": "0.5"
+				},
+				{
+					"id": "dot",
+					"title": "Dot",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-dot pin-label",
+					"label": "Dot",
+					"fill": "#29afa1",
+					"x": "0.25",
+					"y": "0.5"
+				},
+				{
+					"id": "image",
+					"title": "Image",
+					"description": "<code>{{pin}}</code>",
+					"pin": "pin-square pin-lg",
+					"label": "images/logo-small.svg",
+					"fill": "transparent",
+					"x": "0.35",
+					"y": "0.5"
+				}
+			]
+		}
+	]
+}

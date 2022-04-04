@@ -1,0 +1,35 @@
+{#--
+NAV OVERLAY
+/templates/_partials/nav_overlay.html
+niceworld 7.18.18
+--#}
+
+
+<div id="nav" class="w-full flex flex-row justify-items-center">
+		<div class="flex flex-1 justify-items-start p-4">
+      <button type="button" class="z-50 cursor-pointer ml-auto mr-3 relative top-1 left-2" @click="showOverlayMenu = false"><img src="{{ siteUrl }}assets/imgz/icon-close-x.svg"></button>
+		</div><!-- /top-buttons -->
+</div><!-- /nav -->
+
+
+<div class="w-5/6 mx-auto md:m-0 md:w-full flex flex-col md:flex-row">
+    <div class="w-full md:w-auto md:flex-1">
+
+        
+          <a href="{{siteUrl}}" class="overlay-nav-item">home</a>
+          <a href="{{siteUrl}}about-us" class="overlay-nav-item">about us</a>
+          <a href="{{siteUrl}}professional-development" class="overlay-nav-item">professional development</a>
+          <a href="{{siteUrl}}materials" class="overlay-nav-item">materials</a>
+          <a href="{{siteUrl}}connect" class="overlay-nav-item">connect</a>
+
+    </div>
+</div>
+
+
+
+{# <div class="w-5/6 md:w-full mx-auto flex items-center place-content-center flex-col md:flex-row mt-8">
+    <a href="{{siteUrl}}terms-and-conditions" class="text-xs font-sans text-white no-underline">Terms and Conditions</a>
+    <div class="hidden md:inline-block text-white">&nbsp;&nbsp;|&nbsp;&nbsp;</div> 
+    <a href="{{siteUrl}}cookie-consent-policy" class="text-xs font-sans text-white no-underline">Cookie Consent Policy</a>
+</div> #}
+

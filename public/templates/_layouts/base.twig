@@ -1,0 +1,101 @@
+{#--
+MAP
+/templates/_layouts/base.html
+niceworld 4.1.22
+--#}
+
+{% set segment_1 = craft.app.request.segment(1) %}
+{% set segment_2 = craft.app.request.segment(2) %}
+{% set segment_3 = craft.app.request.segment(3) %}
+{% set bodyClass = segment_1 %}
+
+{# {% set seoTitle = globalSeo.globalSeoTitle %}
+{% set seoDescription = globalSeo.globalSeoDescription %} #}
+{% set currently = now|date("U") %}
+
+{% if segment_1 != '' %}{% set pageClass = 'two' %}{% else %}{% set pageClass = 'one' %}{% endif %}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+	{% block head %}
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		<title>
+			{% if title is defined %}{{ title }} {% else %}{{ seoTitle }} {% endif %}
+		</title>
+		<meta name="description" content="{% if description is defined %}{{ description }}{% else %}{{ seoDescription }}{% endif %}"/>
+		<meta property="og:type" content="article" />
+    <meta property="og:title" content="{% if title is defined %}{{ title }}{% else %}{{ seoTitle }}{% endif %}"/>
+    <meta property="og:description" content="{% if description is defined %}{{ description }}{% else %}{{ seoDescription }}{% endif %}"/>
+		{% if canon_url is defined %}
+			<meta property="og:url" content="{{ canon_url }}" />
+		{% endif %}
+
+		{% if og_img is defined %}
+			<meta property="og:image" content="{{ og_img }}" />
+			<meta property="og:image:width" content="1200" />
+	    <meta property="og:image:height" content="630" />
+		{% endif %}
+
+		<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:creator" content="" />
+    <meta name="twitter:title" content="{% if title is defined %}{{ title }}{% else %}{{ seoTitle }}{% endif %}" />
+    <meta name="twitter:description" content="{% if description is defined %}{{ description }}{% else %}{{ seoDescription }}{% endif %}" />
+
+		{% if og_img is defined %}
+			<meta property="twitter:image:src" content="{{ og_img }}" />
+		{% endif %}
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+	  <meta name="referrer" content="origin-when-cross-origin" />
+
+		{# <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> #}
+
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+		</style>
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+		{# <link rel="stylesheet" type="text/css" href="{{siteUrl}}assets/map/css/style.css"> #}
+		<link rel="stylesheet" type="text/css" href="{{siteUrl}}assets/map/css/magnific-popup.css">
+		<link rel="stylesheet" type="text/css" href="{{siteUrl}}assets/map/mapplic/mapplic.css">
+
+		<link rel="stylesheet" type="text/css" href="{{siteUrl}}css/nice.css?v=220329">
+
+		{# {% include '_partials/_favico' %} #}
+	
+		{# <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+ 	  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>   
+	  <script defer src="{{siteUrl}}js/collapse@3.9.5/collapse.3.9.5.min.js"></script>  
+	  <script defer src="{{siteUrl}}js/alpine@3.9.5/alpine.3.9.5.min.js"></script>  #}
+
+
+		{# <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YY3RRPFX9T"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-YY3RRPFX9T');
+		</script> #}
+
+	{% endblock %}
+</head>
+
+<body {% if bodyClass is defined %}class="{{ bodyClass }}-body {{pageClass}}-page body-build-border body-min-width"{% endif %}>
+
+{% block body %}{% endblock %}
+{% block foot %}{% endblock %}
+
+{# {% js "/js/functions.js" %} #}
+
+<!-- ******************************************
+NICE WORLD INDUSTRIES | 2021
+*************************************** -->
+</body>
+</html>

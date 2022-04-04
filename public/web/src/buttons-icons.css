@@ -1,0 +1,28 @@
+$2xl: only screen and (min-width:2000px) and (max-width: 4000px); /* XXL */
+$xl: only screen and (min-width:1200px) and (max-width: 2000px); /* XL */
+$lg: only screen and (min-width: 992px) and (max-width: 1200px); /* LG */
+$md: only screen and (min-width: 768px) and (max-width: 992px); /* MD */
+$sm: only screen and (min-width: 576px) and (max-width: 768px); /* SM */
+$xs: only screen and (max-width: 576px); /* XS */
+$2xs: only screen and (max-width: 320px);
+
+.f-btn {
+   @apply text-white font-medium;
+   padding: 10px 20px 5px 20px;
+   margin: 2px;
+  &.btn-orange {background-color: #E76828;
+    &:hover {
+          background-color: #6C9926;
+      }
+    }
+  &.btn-green {background-color: #6C9926;
+      &:hover {
+          background-color: #E76828;
+      }
+  }
+  &.btn-yellow {background-color: #FFC82C;
+      &:hover {
+          background-color: #6C9926;
+      }  
+  }
+}

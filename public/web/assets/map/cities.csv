@@ -1,0 +1,52 @@
+id,title,city_ascii,lat,lng,pin,capital,country,iso2,continent,category,population,thumbnail,description,about
+,,,,,,,,,,,,,,
+tokyo,Tokyo,Tokyo,35.6897,139.6922,pin-sm,primary,Japan,JP,Asia,cities,37977000,"https://source.unsplash.com/random/260x180/?city,s=1",The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+jakarta,Jakarta,Jakarta,-6.2146,106.8451,pin-sm,primary,Indonesia,ID,Asia,cities,34540000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+delhi,Delhi,Delhi,28.66,77.23,pin-sm,admin,India,IN,Asia,cities,29617000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+mumbai,Mumbai,Mumbai,18.9667,72.8333,pin-sm,admin,India,IN,Asia,cities,23355000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+manila,Manila,Manila,14.5958,120.9772,pin-sm,primary,Philippines,PH,Asia,cities,23088000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+shanghai,Shanghai,Shanghai,31.1667,121.4667,pin-sm,admin,China,CN,Asia,cities,22120000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+sao-paulo,São Paulo,Sao Paulo,-23.5504,-46.6339,pin-sm,admin,Brazil,BR,South America,cities,22046000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+seoul,Seoul,Seoul,37.5833,127,pin-sm,primary,"Korea, South",KR,Asia,cities,21794000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+mexico-city,Mexico City,Mexico City,19.4333,-99.1333,pin-sm,primary,Mexico,MX,North America,cities,20996000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+guangzhou,Guangzhou,Guangzhou,23.1288,113.259,pin-sm,admin,China,CN,Asia,cities,20902000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+beijing,Beijing,Beijing,39.905,116.3914,pin-sm,primary,China,CN,Asia,cities,19433000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+cairo,Cairo,Cairo,30.0561,31.2394,pin-sm,primary,Egypt,EG,Africa,cities,19372000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+new-york,New York,New York,40.6943,-73.9249,pin-sm,,United States,US,North America,cities,18713220,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+kolkata,Kolkāta,Kolkata,22.5411,88.3378,pin-sm,admin,India,IN,Asia,cities,17560000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+moscow,Moscow,Moscow,55.7558,37.6178,pin-sm,primary,Russia,RU,"Europe,Asia",cities,17125000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+bangkok,Bangkok,Bangkok,13.75,100.5167,pin-sm,primary,Thailand,TH,Asia,cities,17066000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+buenos-aires,Buenos Aires,Buenos Aires,-34.5997,-58.3819,pin-sm,primary,Argentina,AR,South America,cities,16157000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+shenzhen,Shenzhen,Shenzhen,22.535,114.054,pin-sm,minor,China,CN,Asia,cities,15929000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+dhaka,Dhaka,Dhaka,23.7161,90.3961,pin-sm,primary,Bangladesh,BD,Asia,cities,15443000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+lagos,Lagos,Lagos,6.45,3.4,pin-sm,minor,Nigeria,NG,Africa,cities,15279000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+istanbul,Istanbul,Istanbul,41.01,28.9603,pin-sm,admin,Turkey,TR,"Europe,Asia",cities,15154000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+osaka,Ōsaka,Osaka,34.6936,135.5019,pin-sm,admin,Japan,JP,Asia,cities,14977000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+karachi,Karachi,Karachi,24.86,67.01,pin-sm,admin,Pakistan,PK,Asia,cities,14835000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+bangalore,Bangalore,Bangalore,12.9699,77.598,pin-sm,admin,India,IN,Asia,cities,13707000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+tehran,Tehran,Tehran,35.7,51.4167,pin-sm,primary,Iran,IR,Asia,cities,13633000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+kinshasa,Kinshasa,Kinshasa,-4.3317,15.3139,pin-sm,primary,Congo (Kinshasa),CD,Africa,cities,13528000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+ho-chi-minh-city,Ho Chi Minh City,Ho Chi Minh City,10.8167,106.6333,pin-sm,admin,Vietnam,VN,Asia,cities,13312000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+los-angeles,Los Angeles,Los Angeles,34.1139,-118.4068,pin-sm,,United States,US,North America,cities,12750807,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+rio-de-janeiro,Rio de Janeiro,Rio de Janeiro,-22.9083,-43.1964,pin-sm,admin,Brazil,BR,South America,cities,12272000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+nanyang,Nanyang,Nanyang,32.9987,112.5292,pin-sm,,China,CN,Asia,cities,12010000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+chennai,Chennai,Chennai,13.0825,80.275,pin-sm,admin,India,IN,Asia,cities,11324000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+chengdu,Chengdu,Chengdu,30.6636,104.0667,pin-sm,admin,China,CN,Asia,cities,11309000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+lahore,Lahore,Lahore,31.5497,74.3436,pin-sm,admin,Pakistan,PK,Asia,cities,11021000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+paris,Paris,Paris,48.8566,2.3522,pin-sm,primary,France,FR,Europe,cities,11020000,,The city has a population of <b>{{population}}</b>.,"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+london,London,London,51.5072,-0.1275,pin-sm,primary,United Kingdom,GB,Europe,cities,10979000,,The city has a population of <b>{{population}}</b>.,City
+linyi,Linyi,Linyi,35.0606,118.3425,pin-sm,,China,CN,Asia,cities,10820000,,The city has a population of <b>{{population}}</b>.,City
+tianjin,Tianjin,Tianjin,39.1467,117.2056,pin-sm,admin,China,CN,Asia,cities,10800000,,The city has a population of <b>{{population}}</b>.,City
+shijiazhuang,Shijiazhuang,Shijiazhuang,38.0422,114.5086,pin-sm,admin,China,CN,Asia,cities,10784600,,The city has a population of <b>{{population}}</b>.,City
+baoding,Baoding,Baoding,38.8671,115.4845,pin-sm,,China,CN,Asia,cities,10700000,,The city has a population of <b>{{population}}</b>.,City
+zhoukou,Zhoukou,Zhoukou,33.625,114.6418,pin-sm,minor,China,CN,Asia,cities,9901000,,The city has a population of <b>{{population}}</b>.,City
+lima,Lima,Lima,-12.05,-77.0333,pin-sm,primary,Peru,PE,South America,cities,9848000,,The city has a population of <b>{{population}}</b>.,City
+hyderabad,Hyderābād,Hyderabad,17.3667,78.4667,pin-sm,admin,India,IN,Asia,cities,9746000,,The city has a population of <b>{{population}}</b>.,City
+bogota,Bogotá,Bogota,4.6126,-74.0705,pin-sm,primary,Colombia,CO,South America,cities,9464000,,The city has a population of <b>{{population}}</b>.,City
+weifang,Weifang,Weifang,36.7167,119.1,pin-sm,,China,CN,Asia,cities,9373000,,The city has a population of <b>{{population}}</b>.,City
+nagoya,Nagoya,Nagoya,35.1167,136.9333,pin-sm,admin,Japan,JP,Asia,cities,9113000,,The city has a population of <b>{{population}}</b>.,City
+wuhan,Wuhan,Wuhan,30.5872,114.2881,pin-sm,admin,China,CN,Asia,cities,8962000,,The city has a population of <b>{{population}}</b>.,City
+heze,Heze,Heze,35.2333,115.4333,pin-sm,minor,China,CN,Asia,cities,8750000,,The city has a population of <b>{{population}}</b>.,City
+ganzhou,Ganzhou,Ganzhou,25.8292,114.9336,pin-sm,minor,China,CN,Asia,cities,8677600,,The city has a population of <b>{{population}}</b>.,City
+tongshan,Tongshan,Tongshan,34.261,117.1859,pin-sm,minor,China,CN,Asia,cities,8669000,,The city has a population of <b>{{population}}</b>.,City
+chicago,Chicago,Chicago,41.8373,-87.6862,pin-sm,,United States,US,North America,cities,8604203,,The city has a population of <b>{{population}}</b>.,City

@@ -1,0 +1,141 @@
+{
+  "mapwidth": "960",
+  "mapheight": "600",
+  "styles": [
+    {
+      "class": "default",
+      "base": {
+        "fill": "#495360"
+      }
+    },
+    {
+      "class": "blueish",
+      "base": {
+        "fill": "#0769AD",
+        "fill-opacity": "0.4"
+      },
+      "hover": {
+        "fill-opacity": "0.8"
+      },
+      "active": {
+        "fill": "#054979",
+        "fill-opacity": "1"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "states",
+      "title": "States",
+      "color": "#495360",
+      "toggle": "false",
+      "legend": "false",
+      "style": "blueish"
+    }
+  ],
+  "levels": [
+    {
+      "id": "usa",
+      "title": "United States",
+      "map": "/assets/map/maps/usa2.svg",
+      "locations": [
+        {
+          "id": "ar",
+          "title": "Arkansas",
+          "description": "<div class='embed-container'><iframe src='/state/arkansas' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "pin": "hidden",
+          "category": "states"
+        },
+        {
+          "id": "ca",
+          "title": "California",
+          "description": "<div class='embed-container'><iframe src='/state/california' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "pin": "hidden",
+          "category": "states"
+        },
+        {
+          "id": "fl",
+          "title": "Florida",
+          "description": "<div class='embed-container'><iframe src='/state/florida' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "pin": "hidden",
+          "category": "states"
+        },
+        {
+          "id": "il",
+          "title": "Illinois",
+          "description": "<div class='embed-container'><iframe src='/state/illinois' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "pin": "hidden",
+          "category": "states"
+        },
+        {
+          "id": "ky",
+          "title": "Kentucky",
+          "description": "<div class='embed-container'><iframe src='/state/kentucky' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "pin": "hidden",
+          "category": "states"
+        },
+        {
+          "id": "la",
+          "title": "Louisiana",
+          "description": "<div class='embed-container'><iframe src='/state/louisiana' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "pin": "hidden",
+          "category": "states"
+        },
+        {
+          "id": "md",
+          "title": "Maryland",
+          "description": "<div class='embed-container'><iframe src='/state/maryland' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "pin": "hidden",
+          "category": "states"
+        },
+        {
+          "id": "ok",
+          "title": "Oklahoma",
+          "description": "<div class='embed-container'><iframe src='/state/oklahoma' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "pin": "hidden",
+          "category": "states"
+        },
+        {
+          "id": "or",
+          "title": "Oregon",
+          "description": "<div class='embed-container'><iframe src='/state/oregon' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "pin": "hidden",
+          "category": "states"
+        },
+        {
+          "id": "sc",
+          "title": "South Carolina",
+          "description": "<div class='embed-container'><iframe src='/state/south-carolina' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "pin": "hidden",
+          "category": "states"
+        },
+        {
+          "id": "tx",
+          "title": "Texas",
+          "description": "<div class='embed-container'><iframe src='/state/texas' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "pin": "hidden",
+          "category": "states"
+        },        
+        {
+          "id": "vi",
+          "title": "Virginia",
+          "description": "<div class='embed-container'><iframe src='/state/virginia' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "pin": "hidden",
+          "category": "states"
+        }
+      ]
+    }
+  ]
+}

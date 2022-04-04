@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FLATT" transform="translate(-1896.000000, -42.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-26">
+                <g id="Group-24" transform="translate(1845.000000, 42.000000)">
+                    <path d="M65.25,0 L54.75,0 C52.67925,0 51,1.67925 51,3.75 L51,14.25 C51,16.32075 52.67925,18 54.75,18 L65.25,18 C67.3215,18 69,16.32075 69,14.25 L69,3.75 C69,1.67925 67.3215,0 65.25,0 Z M57,14.25 L54.75,14.25 L54.75,6 L57,6 L57,14.25 Z M55.875,5.049 C55.1505,5.049 54.5625,4.4565 54.5625,3.726 C54.5625,2.9955 55.1505,2.403 55.875,2.403 C56.5995,2.403 57.1875,2.9955 57.1875,3.726 C57.1875,4.4565 56.60025,5.049 55.875,5.049 Z M66,14.25 L63.75,14.25 L63.75,10.047 C63.75,7.521 60.75,7.71225 60.75,10.047 L60.75,14.25 L58.5,14.25 L58.5,6 L60.75,6 L60.75,7.32375 C61.797,5.38425 66,5.241 66,9.18075 L66,14.25 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

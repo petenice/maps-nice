@@ -1,0 +1,19 @@
+columnSuffix: qmltkeit
+contentColumnType: text
+fieldGroup: e440e36f-3083-4a58-9465-8cf1459e8238 # Common
+handle: body
+instructions: ''
+name: Body
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

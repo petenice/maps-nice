@@ -1,0 +1,57 @@
+{#--
+HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME
+/templates/index.twig
+niceworld 4.1.22
+--#}
+
+{% extends "_layouts/site" %}
+
+{% set title = "Maps" %}
+{% set description = "" %}
+{% set og_img = siteUrl ~"assets/imgz/" %}
+
+{% block head %}
+  {{ parent() }}
+{% endblock %}
+
+{% block main %}
+
+<div class="map-container">
+{# <div id="mapplic" class="mapplic-sidebar-right"></div> #}
+  <div id="mapplic"></div> <!-- Map -->
+</div>
+
+{% endblock %}{#-- /main --#}
+
+{% block foot %}
+{{ parent() }}
+
+<!-- Scripts -->
+		<script type="text/javascript" src="{{siteUrl}}assets/map/js/jquery.min.js"></script>
+		<script type="text/javascript" src="{{siteUrl}}assets/map/js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="{{siteUrl}}assets/map/js/script.js"></script>
+		{# <script type="text/javascript" src="{{siteUrl}}assets/map/js/csvparser.js"></script> <!-- Required for CSV Support --> #}
+		<script type="text/javascript" src="{{siteUrl}}assets/map/js/magnific-popup.js"></script>
+		<script type="text/javascript" src="{{siteUrl}}assets/map/mapplic/mapplic.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var map = $('#mapplic').mapplic({
+					source: '{{siteUrl}}sustainability-vids.json',
+					{# csv: '{{siteUrl}}assets/map/usa.csv', #}
+					height: 540,
+					sidebar: false,
+					developer: true,
+					lightbox: true,
+					deeplinking: true,
+					closezoomout: false,
+          zoom: false,
+					minimap: false,
+					sidebartoggle: false,
+					thumbholder: true,
+					fullscreen: true,
+					maxscale: 3
+				});
+			});
+		</script>
+
+{% endblock %} {#-- /foot --#}

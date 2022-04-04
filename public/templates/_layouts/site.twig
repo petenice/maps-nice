@@ -1,0 +1,17 @@
+{#--
+MAP
+/templates/_layouts/site.html
+niceworld 4.1.22
+--#}
+
+{% extends "_layouts/base" %}
+
+{% block body %}
+  {% block nav %}{% endblock %}
+  {% block main %}{% endblock %} 
+{% endblock %}
+
+
+{% block foot %}
+	{% include '_partials/_edit-this.twig' %}
+{% endblock %} {#-- /foot --#}

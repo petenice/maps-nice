@@ -1,0 +1,179 @@
+{#-- DETAIL BLOCKS --#}
+
+
+{% for block in entry.detailBlocks %}
+
+  {% if block.type == 'AddTextBlock' %}
+        {{ block.copy | retcon( [
+              ['attr', 'img', { class: 'img-resp' }],
+              ['attr', 'h1', { class: 'text-charcoal font-heavy text-3xl md:text-4xl leading-tight mb-4 mt-6' }],
+              ['attr', 'h2', { class: 'text-charcoal font-heavy text-lg md:text-xl leading-tight mb-4 mt-6' }],
+              ['attr', 'p', { class: 'mb-3' }],
+              ['attr', 'li', { class: 'fix-li' }],
+              ['attr', 'ul', { class: 'mb-3' }],
+          ])
+        }}
+  {% endif %}
+
+  {% if block.type == 'AddQuoteBlock' %}
+        <div class="w-full bg-blue-pale shadow-sm my-4 p-4">
+          <p class="text-2xl av mb-2"><img src="{{siteUrl}}assets/imgz/inline-quote.svg" class="inline relative -top-2 mr-2">{{ block.copy }}</p>
+          {% if block.attributionName|length %}<p class="text-base av-medium">{{block.attributionName}}</p>{% endif %}
+          {% if block.attributionTitle|length %}<p class="text-base av">{{block.attributionTitle}}</p>{% endif %}
+        </div>
+  {% endif %}
+
+  {% if block.type == 'AddCodeBlock' %}
+        <div class="w-full">
+          {{ block.code|raw }}
+        </div>
+  {% endif %}
+
+  {% if block.type == 'AddVideoBlock'  %}
+          <div class="block-video-embed mb-3">
+            <iframe src='https://www.youtube.com/embed/{{ block.video|raw }}' frameborder='0' allowfullscreen></iframe>
+          </div>
+  {% endif %}
+
+  {% if block.type == 'AddButtonBlock'  %}
+          <div class="block-button {{ block.alignButton }}">
+            <a href="{{ block.buttonUrl }}" {% if block.openInNewTab|length %}target="_blank"{% endif %} class="btn {{block.buttonSize}}">{{block.buttonCopy}}</a>
+          </div>
+  {% endif %}
+
+  {% if block.type == 'AddSpaceBreakBlock'  %}
+          <div class="block-space-break {{ block.spaceBreak }} flow-root"></div>
+  {% endif %}
+
+  {% if block.type == 'AddBlueBar'  %}
+           {% if block.barAnchor|length %}<a name="{{block.barAnchor}}">&nbsp;</a>{% endif %}
+           <div class="block-blue-bar w-full bg-blue-main text-white sdf-shadow pt-2 pl-2 md:pl-10 pb-10 mb-10 mt-5 flow-root"><h2 class="text-white font-regular text-2xl">{{block.barTitle}}</h2></div>
+  {% endif %}
+
+
+  {% if block.type == 'AddFileBlock'  %}
+          {% set file = block.attachFile.first() %}
+          <div class="block-file flow-root">
+            {% if file %}
+              {% if block.fileType == "pdf" %}<img src="{{siteUrl}}imgz/icon-PDF.png" class="icon-file">{% endif %}
+              {% if block.fileType == "word" %}<img src="{{siteUrl}}imgz/icon-DOC.png" class="icon-file">{% endif %}
+              {% if block.fileType == "spreadsheet" %}<img src="{{siteUrl}}imgz/icon-XLS.png" class="icon-file">{% endif %}
+              {% if block.fileType == "imageJpg" %}<img src="{{siteUrl}}imgz/icon-JPG.png" class="icon-file">{% endif %}
+              {% if block.fileType == "imagePng" %}<img src="{{siteUrl}}imgz/icon-PNG.png" class="icon-file">{% endif %}
+              {% if block.fileType == "powerpoint" %}<img src="{{siteUrl}}imgz/icon-PPT.png" class="icon-file">{% endif %}
+              {% if block.fileType == "zip" %}<img src="{{siteUrl}}imgz/icon-ZIP.png" class="icon-file">{% endif %}
+              <a href="{{ file.url }}">{% if block.fileName %}{{ block.fileName }}{% else %}{{ file.title }}{% endif %}</a>{% endif %}
+          </div>
+  {% endif %}
+
+  {% if block.type == 'AddImageBlock'  %}
+          {% set img = block.image.first() %}
+          {% if img|length %}
+          {% switch block.imageWidth %}
+            {% case "fullWidth" %}
+              <figure class="center-img-float full-width"><img src="{{ img.url('imgFullWidth') }}" alt="{{img.title}}">
+                {% if block.imageCaption|length %}<figcaption class="mt-4">{{block.imageCaption}}</figcaption>{% endif %}</figure>
+            {% case "halfWidth" %}
+              <figure class="{{block.imageAlign}}-img-float half-width"><img src="{{ img.url('imgHalfWidth') }}" alt="{{img.title}}">
+                {% if block.imageCaption|length %}<figcaption class="mt-4">{{block.imageCaption}}</figcaption>{% endif %}</figure>
+            {% case "thirdWidth" %}
+              <figure class="{{block.imageAlign}}-img-float third-width"><img src="{{ img.url('imgThirdWidth') }}" alt="{{img.title}}">
+                {% if block.imageCaption|length %}<figcaption class="mt-4">{{block.imageCaption}}</figcaption>{% endif %}</figure>
+          {% endswitch %}
+          {% endif %}
+
+  {% endif %}
+
+
+  {% if block.type == 'AddPeopleBlock'  %}
+        {% for entry in block.addPerson %}
+          {% set ppimg = entry.headshot.first() %}
+
+          <div class="inline-block w-full lg:w-11/20">
+          <div class="flex flex-row bg-offset-lt-blue mb-4">
+
+            {% if entry.headshot|length %}
+              <div class="w-140px lg:w-1/3">
+                <img src="{{ ppimg.url('thumb270w') }}" alt="{{ppimg.title}}" class="w-120px ml-0 xl:ml-4">
+              </div>
+            {% endif %}
+
+              <div class="w-auto lg:w-2/3 self-end pb-2 pl-0 lg:pl-2">
+                {% if entry.firstAndLast|length %}
+                  <p class="text-xxs lg:text-xs font-heavy">{{entry.firstAndLast}}</p>
+                {% endif %}
+
+                {% if entry.titleOrPosition|length %}
+                  <p class="text-xxs lg:text-xs">{{entry.titleOrPosition}}</p>
+                {% endif %}
+
+                {% if entry.affiliation|length %}
+                  <p class="text-xxs lg:text-xs">{{entry.affiliation}}</p>
+                {% endif %}
+
+                {% if entry.genCopy|length %}
+                          {{ entry.genCopy | retcon( [
+                                ['attr', 'h1', { class: 'text-charcoal font-heavy text-3xl md:text-4xl leading-tight mb-4' }],
+                                ['attr', 'h2', { class: 'text-charcoal font-heavy text-lg md:text-xl leading-tight mb-2' }],
+                                ['attr', 'p', { class: 'text-xxs lg:text-xs' }],
+                                ['attr', 'a', { class: 'text-xxs lg:text-xs' }],
+                                ['attr', 'li', { class: 'fix-li' }],
+                                ['attr', 'ul', { class: 'mb-3' }],
+                            ])
+                          }}
+                {% endif %}
+
+              </div>
+          </div><!-- /flex -->
+          </div><!-- /width -->
+
+        {% endfor %}
+  {% endif %}
+
+
+{% if block.type == 'AddTickerBlock'  %}
+
+  {% set tickerImg = block.tickerImage.first() %}
+
+    <div class="bg-color-offset-parent mb-20">
+    <div class="bg-color-offset-content">
+      <div class="flex flex-col 
+        {{ block.tickerLayoutAlignment == 'left' ? 'md:flex-row' : '' }}
+        {{ block.tickerLayoutAlignment == 'right' ? 'md:flex-row-reverse' : '' }}
+        {{ block.tickerLayoutAlignment == 'fullWidth' ? 'md:flex-col' : '' }}">   
+      <div class="w-full md:w-1/3">
+          {% if tickerImg|length %}
+            <figure class="bg-offset-image-pad"><img src="{{ tickerImg.url('pageHeroHalf') }}" alt="{{tickerImg.title}}" class="px-4">
+            <figcaption class="text-xxxxs leading-7 text-grey px-4">{{block.tickerImageCaption}}</figcaption></figure>
+          {% endif %}
+        </div>
+        <div class="w-full md:w-2/3 {{block.tickerBGOffsetTextPadding.value}} px-6">
+          <h2 class="font-sans text-3xl mb-6">{{block.tickerHeadline}}</h2>
+          <span class="block mb-6">
+            {{ block.copy|retcon( [
+                  ['attr', 'h1', { class: 'text-base font-sans' }],
+                  ['attr', 'h2', { class: 'text-base font-sans' }],
+                  ['attr', 'p', { class: 'text-base font-sans mb-2' }],
+                  ['attr', 'ul', { class: 'text-base font-sans' }],
+              ])
+            }}
+            {% if block.tickerInternalUrl|length %}
+              <a href="{{block.tickerInternalUrl.first().url}}" class="text-xxs font-sans text-blue-main hover:text-red no-underline hover:underline">&gt; Read More</a>
+            {% endif %}
+            {% if block.tickerExternalUrl|length %}
+              <a href="{{block.tickerExternalUrl}}" class="text-xxs font-sans text-blue-main hover:text-red no-underline hover:underline">&gt; Read More</a>
+            {% endif %}
+          </span>
+        </div>
+      </div><!-- /flex -->
+    </div><!-- /content -->
+    <div class="bg-color-offset-child {{block.tickerBackgroundHeight.value}} lt-blue"></div><!-- /bg-child -->
+    </div><!-- /bg -->
+
+{% endif %}
+
+
+
+
+
+{% endfor %}

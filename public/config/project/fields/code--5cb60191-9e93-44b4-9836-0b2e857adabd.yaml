@@ -1,0 +1,12 @@
+columnSuffix: vdhhxukw
+contentColumnType: text
+fieldGroup: e440e36f-3083-4a58-9465-8cf1459e8238 # Common
+handle: code
+instructions: ''
+name: Code
+searchable: false
+settings:
+  mode: htmlmixed
+translationKeyFormat: null
+translationMethod: none
+type: luwes\codemirror\fields\CodeMirrorField

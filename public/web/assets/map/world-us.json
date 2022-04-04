@@ -1,0 +1,104 @@
+{
+	"mapwidth": "2400",
+	"mapheight": "1697",
+	"topLat": "84.83382568312074",
+	"leftLng": "-181.9372873759479",
+	"bottomLat": "-67.8325574122815",
+	"rightLng": "201.2439555495492",
+	"defaultstyle": "defaultstyle",
+	"styles": [
+		{
+			"class": "city",
+			"base": { "fill": "#AF3535" },
+			"hover": { "fill": "#DD3A3A" },
+			"active": { "fill": "#DD3A3A" }
+		}
+	],
+	"categories": [
+		{
+			"id": "cities",
+			"title": "Cities",
+			"about": "Top cities of the World",
+			"style": "city"
+		},
+		{
+			"id": "countries",
+			"title": "Countries"
+		}
+	],
+	"levels": [
+		{
+			"id": "world-us",
+			"title": "World + US",
+			"map": "maps/world-us.svg",
+			"locations": [
+				{
+					"id": "pos",
+					"title": "Position",
+					"about": "Your Geolocation",
+					"description": "<p>You can show the visitor's location with custom code presented in this example.</p>",
+					"pin": "pin-label pin-ribbon",
+					"fill": "#729b37",
+					"label": "Position",
+					"x": "0.5",
+					"y": "0.5"
+				},
+				{
+					"id": "us-wa",
+					"title": "Washington",
+					"description": "<p>The Evergreen State</p>",
+					"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+					"link": "http://en.wikipedia.org/wiki/Washington_(state)",
+					"pin": "hidden",
+					"x": "0.1602",
+					"y": "0.4554"
+				},
+				{
+					"id": "us-il",
+					"title": "Illinois",
+					"description": "<p>Three U.S. presidents have been elected while living in Illinois</p>",
+					"link": "http://en.wikipedia.org/wiki/Illinois",
+					"pin": "hidden",
+					"x": "0.2419",
+					"y": "0.4916"
+				},
+				{
+					"id": "se",
+					"title": "Sweden",
+					"description": "<p>Sweden's group is: {{category}}</p>",
+					"pin": "hidden",
+					"category": "countries",
+					"x": "0.5145",
+					"y": "0.3533"
+				},
+				{
+					"id": "au-sydney",
+					"title": "Sydney",
+					"description": "<p>Example child location, reveal feature.</p>",
+					"label": "S",
+					"fill": "#AF3535",
+					"pin": "circular pin-md pin-label",
+					"lat": "-33.869582",
+					"lng": "151.212094"
+				},
+				{
+					"id": "au-melbourne",
+					"title": "Melbourne",
+					"description": "<p>Example child location, reveal feature.</p>",
+					"label": "M",
+					"fill": "#AF3535",
+					"pin": "circular pin-md pin-label",
+					"lat": "-37.813016",
+					"lng": "144.960152"
+				},
+				{
+					"id": "au",
+					"title": "Australia",
+					"pin": "hidden no-fill",
+					"category": "countries",
+					"action": "reveal"
+				}
+			]
+		}
+	]
+}

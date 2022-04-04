@@ -1,0 +1,40 @@
+dateModified: 1648854845
+email:
+  fromEmail: peter@petenice.com
+  fromName: 'VOA MAPS'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    5cb60191-9e93-44b4-9836-0b2e857adabd: Code # Code
+    445dae92-f95e-424b-8d57-4715d0c446ea: 'Global SEO Default' # Global SEO Default
+    c2bf4616-a3a8-4172-b4b2-e995ea2526c0: state # state
+    d8cf534d-94e8-4cd4-8843-4da512525136: 'VOA MAPS' # VOA MAPS
+    dee17ec0-9752-4f18-b454-41b5bb1e5f0d: Body # Body
+    e440e36f-3083-4a58-9465-8cf1459e8238: Common # Common
+    eebfd298-6d78-4cf9-9b2a-97ccad4b7e3a: Default # Default
+    fe131a04-1f6c-4085-a110-8932eb90ba35: 'VOA MAPS' # VOA MAPS
+plugins:
+  code-mirror:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.4.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'VOA MAPS'
+  schemaVersion: 3.7.33
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
