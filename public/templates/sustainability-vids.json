@@ -139,7 +139,7 @@
           "pin": "pin-square pin-lg pin-label"
         },        
         {
-          "id": "vi",
+          "id": "va",
           "title": "Virginia",
           "description": "<div class='embed-container'><iframe src='/state/virginia' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
