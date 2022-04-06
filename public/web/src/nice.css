@@ -97,11 +97,11 @@ body {}
 .mapplic-lightbox {
     background-color: #fff;
     position: relative;
-    padding: 20px;
+    padding: 10px;
     width: auto;
     max-width: 100%!important;
-    height: 90%;
-    margin: 20px auto;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .mapplic-lightbox-description {
@@ -116,10 +116,10 @@ body {}
 
 .embed-container-vid { 
   position: relative; 
-  padding-bottom: 56.25%; 
+  padding-bottom: 40%; 
   height: 0; 
   overflow: hidden; 
-  max-width: 90%; 
+  max-width: 80%; 
   margin: 0 auto; 
 } 
 
