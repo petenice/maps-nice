@@ -1222,21 +1222,27 @@ body {}
   top: 0; left: 0; 
   width: 100%; 
   height: 100%; 
-} 
+}
+
+.insta-wrapp {
+  border: solid red 1px;
+  display: grid;
+
+}
 
 .hover\:text-orange-dark:hover{
 	--tw-text-opacity: 1;
 	color: rgba(231, 104, 40, var(--tw-text-opacity));
-} 
+}
 
 .hover\:underline:hover{
 	text-decoration: underline;
-} 
+}
 
 .active\:bg-black:active{
 	--tw-bg-opacity: 1;
 	background-color: rgba(35, 32, 32, var(--tw-bg-opacity));
-} 
+}
 
 @media (min-width: 576px){
 	.sm\:h-100px{
@@ -1252,7 +1258,7 @@ body {}
 		padding-left: 0px;
 		padding-right: 0px;
 	}
-} 
+}
 
 @media (min-width: 768px){
 	.md\:m-0{
@@ -1301,7 +1307,7 @@ body {}
 	.md\:text-xl{
 		font-size: 24px;
 	}
-} 
+}
 
 @media (min-width: 992px){
 	.lg\:w-11\/20{
@@ -1319,7 +1325,7 @@ body {}
 	.lg\:text-xs{
 		font-size: 16px;
 	}
-} 
+}
 
 @media (min-width: 1200px){
 	.xl\:ml-4{

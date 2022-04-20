@@ -45,8 +45,7 @@
           "description": "<div class='embed-container'><iframe src='/state/arkansas' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "states",
-          "label": "4",
-          "pin": "pin-square pin-lg pin-label"
+          "pin": "hidden"
         },
         {
           "id": "ca",
@@ -54,8 +53,7 @@
           "description": "<div class='embed-container'><iframe src='/state/california' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "states",
-          "label": "2",
-          "pin": "pin-square pin-lg pin-label"
+          "pin": "hidden"
         },
         {
           "id": "fl",
@@ -63,8 +61,7 @@
           "description": "<div class='embed-container'><iframe src='/state/florida' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "states",
-          "label": "8",
-          "pin": "pin-square pin-lg pin-label"
+          "pin": "hidden"
         },
         {
           "id": "il",
@@ -73,7 +70,7 @@
           "action": "lightbox",
           "category": "states",
           "label": "4",
-          "pin": "pin-square pin-lg pin-label"
+          "pin": "hidden"
         },
         {
           "id": "ky",
@@ -81,8 +78,7 @@
           "description": "<div class='embed-container'><iframe src='/state/kentucky' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "states",
-          "label": "1",
-          "pin": "pin-square pin-lg pin-label"
+          "pin": "hidden"
         },
         {
           "id": "la",
@@ -90,8 +86,7 @@
           "description": "<div class='embed-container'><iframe src='/state/louisiana' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "states",
-          "label": "1",
-          "pin": "pin-square pin-lg pin-label"
+          "pin": "hidden"
         },
         {
           "id": "md",
@@ -99,8 +94,7 @@
           "description": "<div class='embed-container'><iframe src='/state/maryland' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "states",
-          "label": "1",
-          "pin": "pin-square pin-lg pin-label"
+          "pin": "hidden"
         },
         {
           "id": "ok",
@@ -108,8 +102,7 @@
           "description": "<div class='embed-container'><iframe src='/state/oklahoma' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "states",
-          "label": "2",
-          "pin": "pin-square pin-lg pin-label"
+          "pin": "hidden"
         },
         {
           "id": "or",
@@ -117,8 +110,7 @@
           "description": "<div class='embed-container'><iframe src='/state/oregon' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "states",
-          "label": "1",
-          "pin": "pin-square pin-lg pin-label"
+          "pin": "hidden"
         },
         {
           "id": "sc",
@@ -126,8 +118,7 @@
           "description": "<div class='embed-container'><iframe src='/state/south-carolina' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "states",
-          "label": "2",
-          "pin": "pin-square pin-lg pin-label"
+          "pin": "hidden"
         },
         {
           "id": "tx",
@@ -135,8 +126,7 @@
           "description": "<div class='embed-container'><iframe src='/state/texas' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "states",
-          "label": "1",
-          "pin": "pin-square pin-lg pin-label"
+          "pin": "hidden"
         },        
         {
           "id": "va",
@@ -144,8 +134,7 @@
           "description": "<div class='embed-container'><iframe src='/state/virginia' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "states",
-          "label": "2",
-          "pin": "pin-square pin-lg pin-label"
+          "pin": "hidden"
         }
       ]
     }
