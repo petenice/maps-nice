@@ -25,8 +25,8 @@
   ],
   "groups": [
     {
-      "id": "states",
-      "title": "States",
+      "id": "sustainability-states",
+      "title": "sustainability-states",
       "color": "#495360",
       "toggle": "false",
       "legend": "false",
@@ -36,104 +36,104 @@
   "levels": [
     {
       "id": "usa",
-      "title": "United States",
+      "title": "United sustainability-states",
       "map": "/assets/map/maps/usa2.svg",
       "locations": [
         {
           "id": "ar",
           "title": "Arkansas",
-          "description": "<div class='embed-container'><iframe src='/state/arkansas' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/arkansas' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "category": "states",
+          "category": "sustainability-states",
           "pin": "hidden"
         },
         {
           "id": "ca",
           "title": "California",
-          "description": "<div class='embed-container'><iframe src='/state/california' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/california' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "category": "states",
+          "category": "sustainability-states",
           "pin": "hidden"
         },
         {
           "id": "fl",
           "title": "Florida",
-          "description": "<div class='embed-container'><iframe src='/state/florida' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/florida' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "category": "states",
+          "category": "sustainability-states",
           "pin": "hidden"
         },
         {
           "id": "il",
           "title": "Illinois",
-          "description": "<div class='embed-container'><iframe src='/state/illinois' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/illinois' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "category": "states",
+          "category": "sustainability-states",
           "label": "4",
           "pin": "hidden"
         },
         {
           "id": "ky",
           "title": "Kentucky",
-          "description": "<div class='embed-container'><iframe src='/state/kentucky' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/kentucky' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "category": "states",
+          "category": "sustainability-states",
           "pin": "hidden"
         },
         {
           "id": "la",
           "title": "Louisiana",
-          "description": "<div class='embed-container'><iframe src='/state/louisiana' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/louisiana' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "category": "states",
+          "category": "sustainability-states",
           "pin": "hidden"
         },
         {
           "id": "md",
           "title": "Maryland",
-          "description": "<div class='embed-container'><iframe src='/state/maryland' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/maryland' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "category": "states",
+          "category": "sustainability-states",
           "pin": "hidden"
         },
         {
           "id": "ok",
           "title": "Oklahoma",
-          "description": "<div class='embed-container'><iframe src='/state/oklahoma' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/oklahoma' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "category": "states",
+          "category": "sustainability-states",
           "pin": "hidden"
         },
         {
           "id": "or",
           "title": "Oregon",
-          "description": "<div class='embed-container'><iframe src='/state/oregon' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/oregon' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "category": "states",
+          "category": "sustainability-states",
           "pin": "hidden"
         },
         {
           "id": "sc",
           "title": "South Carolina",
-          "description": "<div class='embed-container'><iframe src='/state/south-carolina' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/south-carolina' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "category": "states",
+          "category": "sustainability-states",
           "pin": "hidden"
         },
         {
           "id": "tx",
           "title": "Texas",
-          "description": "<div class='embed-container'><iframe src='/state/texas' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/texas' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "category": "states",
+          "category": "sustainability-states",
           "pin": "hidden"
         },        
         {
           "id": "va",
           "title": "Virginia",
-          "description": "<div class='embed-container'><iframe src='/state/virginia' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/virginia' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
-          "category": "states",
+          "category": "sustainability-states",
           "pin": "hidden"
         }
       ]

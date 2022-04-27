@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: e440e36f-3083-4a58-9465-8cf1459e8238 # Common
+handle: videoEmbeds
+instructions: ''
+name: 'Video Embeds'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_videoembeds}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

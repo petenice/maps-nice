@@ -1,0 +1,48 @@
+{#--
+STATE
+/templates/state.twig
+niceworld 4.1.22
+--#}
+
+{% set blocks = entry.videoEmbeds.all() %}
+
+{% extends "_layouts/site" %}
+
+{% set title = "" %}
+{% set description = "" %}
+{% set og_img = siteUrl ~"assets/imgz/" %}
+
+{% block head %}
+  {{ parent() }}
+{% endblock %}
+
+{% block main %}
+
+
+<p>{{entry.body}}</p>
+
+{{entry.code|raw}}
+
+{% if blocks|length %}
+    {% for block in blocks %}
+
+      {% if block.type == "youtube" %}
+        <div class='embed-container-vid'>{{block.ytEmbed|raw}}</div>
+      {% elseif block.type == "vimeo" %}
+        <div class='embed-container-vid'>{{block.vimEmbed|raw}}</div>
+      {% elseif block.type == "instagram" %}
+        <div class='insta-wrapp'>{{block.instaEmbed|raw}}</div>
+      {% elseif block.type == "twitter" %}
+        <div class='insta-wrapp'>{{block.twEmbed|raw}}</div>
+      {% endif %}
+      
+    {% endfor %}
+{% endif %}
+
+
+
+{% endblock %}{#-- /main --#}
+
+{% block foot %}
+{{ parent() }}
+{% endblock %} {#-- /foot --#}

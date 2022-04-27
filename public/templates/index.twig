@@ -6,54 +6,19 @@ niceworld 4.1.22
 
 {% extends "_layouts/site" %}
 
-{% set title = "Maps" %}
+{% set title = "AFBF Maps Project" %}
 {% set description = "" %}
-{% set og_img = siteUrl ~"assets/imgz/" %}
+{% set og_img = siteUrl ~"" %}
 
 {% block head %}
   {{ parent() }}
 {% endblock %}
 
 {% block main %}
-
-<div class="map-container">
-{# <div id="mapplic" class="mapplic-sidebar-right"></div> #}
-  <div id="mapplic"></div> <!-- Map -->
-</div>
+<p>American Farm Bureau Federation Maps Server</p>
 
 {% endblock %}{#-- /main --#}
 
 {% block foot %}
 {{ parent() }}
-
-<!-- Scripts -->
-		<script type="text/javascript" src="{{siteUrl}}assets/map/js/jquery.min.js"></script>
-		<script type="text/javascript" src="{{siteUrl}}assets/map/js/jquery.mousewheel.js"></script>
-		<script type="text/javascript" src="{{siteUrl}}assets/map/js/script.js"></script>
-		{# <script type="text/javascript" src="{{siteUrl}}assets/map/js/csvparser.js"></script> <!-- Required for CSV Support --> #}
-		<script type="text/javascript" src="{{siteUrl}}assets/map/js/magnific-popup.js"></script>
-		<script type="text/javascript" src="{{siteUrl}}assets/map/mapplic/mapplic.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				var map = $('#mapplic').mapplic({
-					source: '{{siteUrl}}sustainability-vids.json',
-					{# csv: '{{siteUrl}}assets/map/usa.csv', #}
-					// height: 500,
-					minheight:200,
-					sidebar: false,
-					developer: false,
-					lightbox: true,
-					deeplinking: true,
-					closezoomout: false,
-					hovertip: true,
-          zoom: true,
-					minimap: false,
-					sidebartoggle: false,
-					thumbholder: true,
-					fullscreen: false,
-					maxscale: 2
-				});
-			});
-		</script>
-
 {% endblock %} {#-- /foot --#}

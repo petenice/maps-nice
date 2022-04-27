@@ -121,6 +121,7 @@ body {}
   overflow: hidden; 
   max-width: 80%; 
   margin: 0 auto; 
+  margin-bottom: 2%;
 } 
 
 .embed-container-vid iframe, .embed-container-vid object, .embed-container-vid embed { 
@@ -131,7 +132,9 @@ body {}
 }
 
 .insta-wrapp {
-  border: solid red 1px;
-  display: grid;
-
+  display: block;
+  /* border: solid red 1px; */
+  max-width: 530px;
+  margin: 0 auto;
+  padding-bottom: 1%;
 }

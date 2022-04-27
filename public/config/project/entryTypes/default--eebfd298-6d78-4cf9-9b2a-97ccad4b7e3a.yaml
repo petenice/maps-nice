@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: dee17ec0-9752-4f18-b454-41b5bb1e5f0d # Body
+            fieldUid: 00b79000-06ca-4d0c-a04a-9fce39f91725 # Video Embeds
             instructions: null
             label: null
             required: false
@@ -49,7 +49,7 @@ fieldLayouts:
 handle: default
 hasTitleField: true
 name: Default
-section: c2bf4616-a3a8-4172-b4b2-e995ea2526c0 # state
+section: c2bf4616-a3a8-4172-b4b2-e995ea2526c0 # Sustainability States
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

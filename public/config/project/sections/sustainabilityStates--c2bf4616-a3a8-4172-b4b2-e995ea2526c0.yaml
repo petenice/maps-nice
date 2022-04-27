@@ -1,12 +1,12 @@
 defaultPlacement: end
 enableVersioning: true
-handle: state
-name: state
+handle: sustainabilityStates
+name: 'Sustainability States'
 propagationMethod: all
 siteSettings:
   fe131a04-1f6c-4085-a110-8932eb90ba35: # VOA MAPS
     enabledByDefault: true
     hasUrls: true
-    template: state/_entry
-    uriFormat: 'state/{slug}'
+    template: sustainability-states/_entry
+    uriFormat: 'sustainability-states/{slug}'
 type: channel
