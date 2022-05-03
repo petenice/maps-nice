@@ -1,4 +1,4 @@
-dateModified: 1651017562
+dateModified: 1651619308
 email:
   fromEmail: peter@petenice.com
   fromName: 'VOA MAPS'
@@ -8,6 +8,7 @@ meta:
     00b79000-06ca-4d0c-a04a-9fce39f91725: 'Video Embeds' # Video Embeds
     2b280577-fb62-4a0b-b082-3f12203e2ec6: 'Insta - Embed' # Insta - Embed
     5cb60191-9e93-44b4-9836-0b2e857adabd: Code # Code
+    7a8f7a07-ae16-45d7-8c8c-14214089d319: 'FB - Embed' # FB - Embed
     7dd1299b-a038-4a0d-a9c6-b7df0bdc01d7: Instagram # Instagram
     8a426ea5-583e-4076-9f21-2ac52d7371a3: Twitter # Twitter
     80b3706f-9a9d-4510-8343-516e60df19aa: 'TW - Embed' # TW - Embed
@@ -21,6 +22,7 @@ meta:
     dee17ec0-9752-4f18-b454-41b5bb1e5f0d: Body # Body
     e440e36f-3083-4a58-9465-8cf1459e8238: Common # Common
     eebfd298-6d78-4cf9-9b2a-97ccad4b7e3a: Default # Default
+    fca114b7-f8ae-47a7-b0df-c27ecddee4fe: Facebook # Facebook
     fe131a04-1f6c-4085-a110-8932eb90ba35: 'VOA MAPS' # VOA MAPS
 plugins:
   code-mirror:

@@ -1,11 +1,11 @@
 field: 00b79000-06ca-4d0c-a04a-9fce39f91725 # Video Embeds
 fieldLayouts:
-  c85de4c0-b084-4a08-aabe-b2f8099d3e0d:
+  7238fcde-55cd-4b9a-8e63-719ab7a84950:
     tabs:
       -
         elements:
           -
-            fieldUid: 80b3706f-9a9d-4510-8343-516e60df19aa # TW - Embed
+            fieldUid: 7a8f7a07-ae16-45d7-8c8c-14214089d319 # FB - Embed
             instructions: null
             label: null
             required: false
@@ -16,19 +16,19 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  80b3706f-9a9d-4510-8343-516e60df19aa: # TW - Embed
+  7a8f7a07-ae16-45d7-8c8c-14214089d319: # FB - Embed
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null
-    handle: twEmbed
+    handle: fbEmbed
     instructions: ''
-    name: 'TW - Embed'
+    name: 'FB - Embed'
     searchable: false
     settings:
       mode: htmlmixed
     translationKeyFormat: null
     translationMethod: none
     type: luwes\codemirror\fields\CodeMirrorField
-handle: twitter
-name: Twitter
-sortOrder: 5
+handle: facebook
+name: Facebook
+sortOrder: 3

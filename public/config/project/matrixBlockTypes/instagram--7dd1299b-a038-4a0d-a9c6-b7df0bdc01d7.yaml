@@ -31,4 +31,4 @@ fields:
     type: luwes\codemirror\fields\CodeMirrorField
 handle: instagram
 name: Instagram
-sortOrder: 3
+sortOrder: 4
