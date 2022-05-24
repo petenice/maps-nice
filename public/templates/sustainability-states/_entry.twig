@@ -32,12 +32,16 @@ niceworld 4.1.22
       {% elseif block.type == "vimeo" %}
         <div class='embed-container-vid'>{{block.vimEmbed|raw}}</div>
       {% elseif block.type == "facebook" %}
-        <div class='embed-container-vid'>{{block.fbEmbed|raw}}</div>
+        <p>this FB</p>
+        <div class='embed-container-vid fb'>{{block.fbEmbed|raw}}</div>
       {% elseif block.type == "instagram" %}
         <div class='insta-wrapp'>{{block.instaEmbed|raw}}</div>
       {% elseif block.type == "twitter" %}
         <div class='insta-wrapp'>{{block.twEmbed|raw}}</div>
-      {% endif %}
+      {% elseif block.type == "fbiFramely" %}
+        <div class='fb-alt'>{{block.fbIframely|raw}}</div>
+      {% endif %} 
+
       
     {% endfor %}
 {% endif %}

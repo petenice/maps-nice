@@ -1,11 +1,11 @@
 field: 00b79000-06ca-4d0c-a04a-9fce39f91725 # Video Embeds
 fieldLayouts:
-  c85de4c0-b084-4a08-aabe-b2f8099d3e0d:
+  5c067b39-3263-43e6-bb84-9c59f03c5997:
     tabs:
       -
         elements:
           -
-            fieldUid: 80b3706f-9a9d-4510-8343-516e60df19aa # TW - Embed
+            fieldUid: cc452521-cc64-416e-95da-07bd826fcb91 # FB Embed from Iframely - Code
             instructions: null
             label: null
             required: false
@@ -16,26 +16,19 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  80b3706f-9a9d-4510-8343-516e60df19aa: # TW - Embed
+  cc452521-cc64-416e-95da-07bd826fcb91: # FB Embed from Iframely - Code
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null
-    handle: twEmbed
-    instructions: ''
-    name: 'TW - Embed'
+    handle: fbIframely
+    instructions: 'For non 16X9 videos on Facebook, use the Iframely embed service here --> https://iframely.com/domains/facebook'
+    name: 'FB Embed from Iframely - Code'
     searchable: false
     settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
-      columnType: null
-      initialRows: '4'
-      multiline: '1'
-      placeholder: null
-      uiMode: normal
+      mode: htmlmixed
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\PlainText
-handle: twitter
-name: Twitter
-sortOrder: 5
+    type: luwes\codemirror\fields\CodeMirrorField
+handle: fbiFramely
+name: 'Facebook IFramely'
+sortOrder: 6

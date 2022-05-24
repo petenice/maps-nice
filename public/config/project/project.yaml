@@ -1,4 +1,4 @@
-dateModified: 1651619308
+dateModified: 1653415766
 email:
   fromEmail: peter@petenice.com
   fromName: 'VOA MAPS'
@@ -13,11 +13,13 @@ meta:
     8a426ea5-583e-4076-9f21-2ac52d7371a3: Twitter # Twitter
     80b3706f-9a9d-4510-8343-516e60df19aa: 'TW - Embed' # TW - Embed
     445dae92-f95e-424b-8d57-4715d0c446ea: 'Global SEO Default' # Global SEO Default
+    666c6cf5-0ff3-4cf5-b78b-b2dd49ba77dd: 'Facebook IFramely' # Facebook IFramely
     6187e7ab-037d-4480-af92-0fc36abd9b85: 'YT - Embed' # YT - Embed
     a6b693fb-56f8-405e-b68e-7282414b46e2: YouTube # YouTube
     adb26397-68d4-4ecb-a184-e985116b29ed: 'Vim - Embed' # Vim - Embed
     aed41e90-1f28-438f-81d5-0b6ade29ebed: Vimeo # Vimeo
     c2bf4616-a3a8-4172-b4b2-e995ea2526c0: 'Sustainability States' # Sustainability States
+    cc452521-cc64-416e-95da-07bd826fcb91: 'FB Embed from Iframely - Code' # FB Embed from Iframely - Code
     d8cf534d-94e8-4cd4-8843-4da512525136: 'VOA MAPS' # VOA MAPS
     dee17ec0-9752-4f18-b454-41b5bb1e5f0d: Body # Body
     e440e36f-3083-4a58-9465-8cf1459e8238: Common # Common

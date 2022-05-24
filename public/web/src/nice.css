@@ -122,6 +122,9 @@ body {}
   max-width: 80%; 
   margin: 0 auto; 
   margin-bottom: 2%;
+  &.fb {
+    padding-bottom: 45%;
+  }
 } 
 
 .embed-container-vid iframe, .embed-container-vid object, .embed-container-vid embed { 
@@ -137,4 +140,8 @@ body {}
   max-width: 530px;
   margin: 0 auto;
   padding-bottom: 1%;
+}
+
+.fb-alt {
+  max-width: 80%; margin: 0 auto;
 }

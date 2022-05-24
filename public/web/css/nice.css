@@ -1216,7 +1216,11 @@ body {}
   max-width: 80%; 
   margin: 0 auto; 
   margin-bottom: 2%;
-} 
+}
+
+.embed-container-vid.fb {
+    padding-bottom: 45%;
+  } 
 
 .embed-container-vid iframe, .embed-container-vid object, .embed-container-vid embed { 
   position: absolute; 
@@ -1231,6 +1235,10 @@ body {}
   max-width: 530px;
   margin: 0 auto;
   padding-bottom: 1%;
+}
+
+.fb-alt {
+  max-width: 80%; margin: 0 auto;
 }
 
 .hover\:text-orange-dark:hover{
@@ -1335,4 +1343,3 @@ body {}
 		margin-left: 1rem;
 	}
 }
-
