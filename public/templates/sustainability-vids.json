@@ -40,6 +40,30 @@
       "map": "/assets/map/maps/usa2.svg",
       "locations": [
         {
+          "id": "al",
+          "title": "Alabama",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/alabama' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "ak",
+          "title": "Alaska",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/alaska' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "az",
+          "title": "Arizona",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/arizona' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
           "id": "ar",
           "title": "Arkansas",
           "description": "<div class='embed-container'><iframe src='/sustainability-states/arkansas' style='border:0; height: 100%; width: 100%;'></iframe></div>",
@@ -56,11 +80,52 @@
           "pin": "hidden"
         },
         {
+          "id": "co",
+          "title": "Colorado",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/colorado' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "ct",
+          "title": "Connecticut",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/connecticut' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "de",
+          "title": "Delaware",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/delaware' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
           "id": "fl",
           "title": "Florida",
           "description": "<div class='embed-container'><iframe src='/sustainability-states/florida' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "ga",
+          "title": "Georgia",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/georgia' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "id",
+          "title": "Idaho",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/idaho' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "label": "4",
           "pin": "hidden"
         },
         {
@@ -70,6 +135,32 @@
           "action": "lightbox",
           "category": "sustainability-states",
           "label": "4",
+          "pin": "hidden"
+        },
+        {
+          "id": "in",
+          "title": "Indiana",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/indiana' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "label": "4",
+          "pin": "hidden"
+        },
+        {
+          "id": "ia",
+          "title": "Iowa",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/iowa' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "label": "4",
+          "pin": "hidden"
+        },
+        {
+          "id": "ks",
+          "title": "Kansas",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/kansas' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
           "pin": "hidden"
         },
         {
@@ -97,6 +188,86 @@
           "pin": "hidden"
         },
         {
+          "id": "ma",
+          "title": "Massachusetts",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/massachusetts' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "mi",
+          "title": "Michigan",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/michigan' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "mn",
+          "title": "Minnesota",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/minnesota' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "ms",
+          "title": "Mississippi",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/mississippi' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },        
+        {
+          "id": "mo",
+          "title": "Missouri",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/missouri' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },        
+        {
+          "id": "mt",
+          "title": "Montana",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/montana' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },  
+        {
+          "id": "ne",
+          "title": "Nebraska",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/nebraska' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },  
+        {
+          "id": "nh",
+          "title": "New Hampshire",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/new-hampshire' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },  
+        {
+          "id": "nj",
+          "title": "New Jersey",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/new-jersey' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },  
+        {
+          "id": "nm",
+          "title": "New Mexico",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/new-mexico' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },  
+        {
           "id": "ok",
           "title": "Oklahoma",
           "description": "<div class='embed-container'><iframe src='/sustainability-states/oklahoma' style='border:0; height: 100%; width: 100%;'></iframe></div>",
@@ -113,6 +284,62 @@
           "pin": "hidden"
         },
         {
+          "id": "nc",
+          "title": "North Carolina",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/north-carolina' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "nd",
+          "title": "North Dakota",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/north-dakota' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "oh",
+          "title": "Ohio",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/ohio' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },        
+        {
+          "id": "ok",
+          "title": "Oklahoma",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/oklahoma' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },   
+        {
+          "id": "or",
+          "title": "Oregon",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/oregon' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },   
+        {
+          "id": "pa",
+          "title": "Pennsylvania",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/pennsylvania' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },   
+        {
+          "id": "pr",
+          "title": "Puerto Rico",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/puerto-rico' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },  
+        {
           "id": "sc",
           "title": "South Carolina",
           "description": "<div class='embed-container'><iframe src='/sustainability-states/south-carolina' style='border:0; height: 100%; width: 100%;'></iframe></div>",
@@ -120,6 +347,22 @@
           "category": "sustainability-states",
           "pin": "hidden"
         },
+        {
+          "id": "sd",
+          "title": "South Dakota",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/south-dakota' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "tn",
+          "title": "Tennessee",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/tennessee' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },            
         {
           "id": "tx",
           "title": "Texas",
@@ -129,9 +372,49 @@
           "pin": "hidden"
         },        
         {
+          "id": "ut",
+          "title": "Utah",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/utah' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },    
+        {
+          "id": "vt",
+          "title": "Vermont",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/vermont' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },    
+        {
           "id": "va",
           "title": "Virginia",
           "description": "<div class='embed-container'><iframe src='/sustainability-states/virginia' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },    
+        {
+          "id": "wa",
+          "title": "Washington",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/washington' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "wi",
+          "title": "Wisconsin",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/wisconsin' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },    
+        {
+          "id": "wy",
+          "title": "Wyoming",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/wyoming' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "sustainability-states",
           "pin": "hidden"
