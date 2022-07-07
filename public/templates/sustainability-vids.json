@@ -120,6 +120,15 @@
           "pin": "hidden"
         },
         {
+          "id": "hi",
+          "title": "Hawaii",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/hawaii' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "label": "4",
+          "pin": "hidden"
+        },
+        {
           "id": "id",
           "title": "Idaho",
           "description": "<div class='embed-container'><iframe src='/sustainability-states/idaho' style='border:0; height: 100%; width: 100%;'></iframe></div>",
@@ -236,6 +245,14 @@
           "pin": "hidden"
         },  
         {
+          "id": "me",
+          "title": "Maine",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/maine' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },  
+        {
           "id": "ne",
           "title": "Nebraska",
           "description": "<div class='embed-container'><iframe src='/sustainability-states/nebraska' style='border:0; height: 100%; width: 100%;'></iframe></div>",
@@ -268,21 +285,13 @@
           "pin": "hidden"
         },  
         {
-          "id": "ok",
-          "title": "Oklahoma",
-          "description": "<div class='embed-container'><iframe src='/sustainability-states/oklahoma' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "id": "ny",
+          "title": "New York",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/new-york' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "sustainability-states",
           "pin": "hidden"
-        },
-        {
-          "id": "or",
-          "title": "Oregon",
-          "description": "<div class='embed-container'><iframe src='/sustainability-states/oregon' style='border:0; height: 100%; width: 100%;'></iframe></div>",
-          "action": "lightbox",
-          "category": "sustainability-states",
-          "pin": "hidden"
-        },
+        },  
         {
           "id": "nc",
           "title": "North Carolina",
@@ -295,6 +304,30 @@
           "id": "nd",
           "title": "North Dakota",
           "description": "<div class='embed-container'><iframe src='/sustainability-states/north-dakota' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "nv",
+          "title": "Nevada",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/nevada' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "ok",
+          "title": "Oklahoma",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/oklahoma' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "or",
+          "title": "Oregon",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/oregon' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "sustainability-states",
           "pin": "hidden"
@@ -335,6 +368,14 @@
           "id": "pr",
           "title": "Puerto Rico",
           "description": "<div class='embed-container'><iframe src='/sustainability-states/puerto-rico' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },  
+        {
+          "id": "ri",
+          "title": "Rhode Island",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/rhode-island' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "sustainability-states",
           "pin": "hidden"
@@ -398,6 +439,14 @@
         {
           "id": "wa",
           "title": "Washington",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/washington' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "action": "lightbox",
+          "category": "sustainability-states",
+          "pin": "hidden"
+        },
+        {
+          "id": "wv",
+          "title": "West Virginia",
           "description": "<div class='embed-container'><iframe src='/sustainability-states/washington' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "sustainability-states",
