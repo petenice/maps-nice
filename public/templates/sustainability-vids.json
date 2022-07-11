@@ -447,7 +447,7 @@
         {
           "id": "wv",
           "title": "West Virginia",
-          "description": "<div class='embed-container'><iframe src='/sustainability-states/washington' style='border:0; height: 100%; width: 100%;'></iframe></div>",
+          "description": "<div class='embed-container'><iframe src='/sustainability-states/west-virginia' style='border:0; height: 100%; width: 100%;'></iframe></div>",
           "action": "lightbox",
           "category": "sustainability-states",
           "pin": "hidden"
