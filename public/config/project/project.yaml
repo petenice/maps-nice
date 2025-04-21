@@ -1,4 +1,4 @@
-dateModified: 1653415766
+dateModified: 1745271010
 email:
   fromEmail: peter@petenice.com
   fromName: 'VOA MAPS'
@@ -43,7 +43,7 @@ system:
   edition: solo
   live: true
   name: 'VOA MAPS'
-  schemaVersion: 3.7.33
+  schemaVersion: 3.8.0.1
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

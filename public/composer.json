@@ -1,10 +1,10 @@
 {
   "require": {
-    "craftcms/cms": "^3.7.26",
-    "vlucas/phpdotenv": "^5.4.0",
+    "craftcms/cms": "3.9.15",
+    "craftcms/feed-me": "4.4.2",
     "craftcms/redactor": "2.10.5",
     "luwes/craft3-codemirror": "^1.0.2",
-    "craftcms/feed-me": "4.4.2"
+    "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"
